@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.progress-item-dot {
+  margin-right: 10px;
+  padding: 10px;
+  max-width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.progress-item {
+  display: flex;
+  align-items: center;
+}
+
+.progress-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.progress-items-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
